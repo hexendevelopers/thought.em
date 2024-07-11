@@ -1,0 +1,126 @@
+body {
+     background-color: #f4f4f4;
+
+   
+}
+.containerk {
+    max-width: full;
+    margin-top: 170px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+
+.blog-title {
+    font-size: 4em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.blog-description, .blog-content {
+    margin-top: 30px;
+ }
+
+.share-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+
+
+ 
+body {
+    background-color: #f4f4f4;
+}
+
+.containerk {
+    max-width: 100%;
+    margin: 170px 40px 30px 40px;
+    padding: 20px;
+}
+
+.blog-title {
+    font-size: 4em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.blog-description, .blog-content {
+    margin-top: 30px;
+}
+
+.share-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .containerk {
+        margin: 150px 30px 20px 30px;
+    }
+
+    .blog-title {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 992px) {
+    .containerk {
+        margin: 130px 20px 20px 20px;
+    }
+
+    .blog-title {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerk {
+        margin: 100px 15px 20px 15px;
+    }
+
+    .blog-title {
+        font-size: 2em;
+    }
+
+    .share-button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerk {
+        margin: 80px 10px 20px 10px;
+    }
+
+    .blog-title {
+        font-size: 1.5em;
+    }
+
+    .share-button {
+        padding: 6px 12px;
+    }
+}

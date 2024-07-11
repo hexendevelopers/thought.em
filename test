@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Blogs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Antiga&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css1/animate.css">
+        <link rel="stylesheet" href="assets/css1/aos.css">
+        <link rel="stylesheet" href="assets/css1/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css1/bootstrap-select.min.css">
+        <link rel="stylesheet" href="assets/css1/custom-animate.css">
+        <link rel="stylesheet" href="assets/css1/fancybox.min.css">
+        <link rel="stylesheet" href="assets/css1/flaticon.css">
+        <link rel="stylesheet" href="assets/css1/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css1/imp.css">
+        <link rel="stylesheet" href="assets/css1/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css1/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css1/owl.css">
+        <link rel="stylesheet" href="assets/css1/rtl.css">
+        <link rel="stylesheet" href="assets/css1/scrollbar.css">
+        <link rel="stylesheet" href="assets/css1/icomoon.css">
+        <link rel="stylesheet" href="assets/css1/jquery.bootstrap-touchspin.css">
+        <link rel="stylesheet" href="assets/css1/nice-select.css">
+        <link rel="stylesheet" href="assets/css1/module-css/header-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/banner-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/about-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/blog-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/fact-counter-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/faq-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/contact-page.css">
+        <link rel="stylesheet" href="assets/css1/module-css/breadcrumb-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/team-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/partner-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/testimonial-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/services-section.css">
+        <link rel="stylesheet" href="assets/css1/module-css/footer-section.css">
+        <link href="assets/css1/color/theme-color.css" id="jssDefault" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css1/style.css">
+        <link rel="stylesheet" href="assets/css1/responsive.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <style>
+            /* Custom styles */
+            @font-face {
+                font-family: Antiga Regular;
+                src: url("Antiga Regular/Antiga Regular.otf");
+            }
+            h1 {
+                font-family: Antiga Regular;
+            }
+            /* Centering main content */
+            body {
+                 margin: 0;
+                padding: 0;
+             }
+            .main-content {
+                max-width: 800px; /* Adjust width as needed */
+                width: 100%;
+                padding: 20px;
+                background-color: #fff; /* Adjust as needed */
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example shadow */
+                border-radius: 8px; /* Example border radius */
+            }
+
+            #blogsList {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to next row when they exceed container width */
+    gap: 20px; /* Adjust the gap between items as needed */
+}
+
+        </style>
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="assets/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    
+<body>
+
+    <header class="main-header header-style-three bg-white">
+        <!--Start Header-->
+        <div class="header header--style3">
+            <div class="auto-container">
+                <div class="outer-box flex items-center justify-between">
+                    <div class="header-left">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/resources/thoughtem-logo.png" alt="Awesome Logo" title="">
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="header-middle">
+                        <div class="nav-outer style1 flex items-center">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <div class="inner flex items-center">
+                                    <span class="icon-bar block h-1 w-6 bg-gray-800 rounded-full"></span>
+                                    <span class="icon-bar block h-1 w-6 bg-gray-800 rounded-full"></span>
+                                    <span class="icon-bar block h-1 w-6 bg-gray-800 rounded-full"></span>
+                                </div>
+                            </div>
+                            <!-- Main Menu -->
+                            <nav class="main-menu style1 flex items-center">
+                                <ul class="navigation flex space-x-4">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.html">About Us</a></li>
+                                    <li><a href="index.html">Services</a></li>
+                                    <li><a href="index.html">Projects</a></li>
+                                    <li><a href="index.html">Testimonials</a></li>
+                                    <li><a href="index.html">Contact</a></li>
+                                    <li><a href="index.html">Blogs</a></li>
+                                </ul>
+                            </nav>
+                            <!-- Main Menu End-->
+                        </div>
+                    </div>
+    
+                    <div class="header-right flex items-center">
+                        <!-- <div class="serach-button-style1">
+                            <button type="button" class="search-toggler">
+                                <i class="icon-search"></i>
+                            </button>
+                        </div> -->
+                        <div class="thm-space-box-2"></div>
+                        <div class="header-right_buttom">
+                            <div class="btns-box">
+                                <a class="btn-one" href="#" data-toggle="modal" data-target="#exampleModal">
+                                    <span class="txt">Get A Quote</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End header-->
+    </header>
+
+
+
+
+
+
+ 
+
+
+
+
+
+    <div class="container">
+      <h1 class="blog-title" id="blogTitle">Loading...</h1>
+      <img id="blogImage" class="blog-image" src="" alt="Blog Image">
+      <div class="blog-description" id="blogDescription">Please wait...</div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+      <!--Start footer area -->
+      <footer class="footer-area" style="padding-top: 0">
+        <!--Start Footer-->
+        <div class="footer">
+          <div class="shape1 wow slideInLeft" data-wow-delay="500ms" data-wow-duration="4500ms">
+            <!--<img-->
+            <!--  class="float-bob-y"-->
+            <!--  src="assets/images/shape/footer-hand-1.png"-->
+            <!--  alt=""-->
+            <!--/>-->
+          </div>
+          <div class="shape2 wow slideInRight" data-wow-delay="500ms" data-wow-duration="4500ms">
+            <!--<img src="assets/images/shape/footer-hand-2.png" alt="" />-->
+          </div>
+          <div class="container">
+            <div class="row text-right-rtl">
+              <!--Start single footer widget-->
+              <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
+                <div class="single-footer-widget marbtm50">
+                  <div class="our-company-info">
+                    <div class="footer-logo">
+                      <a href="index.html"><img src="assets/images/footer/footer-thoughtem-logo.png" alt="" /></a>
+                    </div>
+                    <div class="text-box">
+                      <p>
+                        Thought.em is a company that specializes in building
+                        custom homes and apartments.They have a team of
+                        experienced architects who can help you create a home
+                        that fits your needs.
+                      </p>
+                    </div>
+                    <div class="footer-social-link">
+                      <ul class="clearfix">
+                        <li>
+                          <a href="https://www.facebook.com/p/Thoughtem-Architects-100063725455063/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://z-p15.www.instagram.com/thought.em_architects/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/company/thought.em/?originalSubdomain=in"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.youtube.com/@thoughtem-architecture3435"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="tel:+919895879898"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--End single footer widget-->
+              <!--Start single footer widget-->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
+                <div class="single-footer-widget margin__top">
+                  <div class="title">
+                    <h3>Services</h3>
+                  </div>
+                  <div class="footer-widget-links">
+                    <ul>
+                      <li><a href="#">Architecture Design</a></li>
+                      <li><a href="#">Interior Design</a></li>
+                      <li><a href="#">Landscape Design</a></li>
+                      <li>
+                        <a href="#">Project Management Consultancy</a>
+                      </li>
+                      <li>
+                        <a href="#">Construction(Z-tower)</a>
+                      </li>
+                      <li>
+                        <a href="#">3D Visualization(3D Garage)</a>
+                      </li>
+                      <!-- <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Contact Us</a></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--End single footer widget-->
+              <!--Start single footer widget-->
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
+                <div class="single-footer-widget margin__top pdtop50">
+                  <div class="title">
+                    <h3>Say hello</h3>
+                  </div>
+                  <div class="footer-widget-contact-info">
+                    <ul>
+  
+                      <li>
+                        <div class="inner">
+                          <div class="icon mapmarker">
+                            <span class="flaticon-maps-and-flags"></span>
+                          </div>
+                          <div class="text">
+                            <p>
+                              Thought.em architects <br>
+                              Gandhi road ,near providence school,<br>Nadakavu,Calicut
+                              673011
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="inner">
+                          <div class="icon">
+                            <span class="flaticon-microphone-black-shape"></span>
+                          </div>
+                          <div class="text">
+                            <p>
+                              Call Us:
+                              <a href="tel:+919895879898"> +91 9895 879 898</a><br>
+                              <a href="tel:+917907045316"> +91 7907 045 316</a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="inner">
+                          <div class="icon">
+                            <span class="flaticon-email"></span>
+                          </div>
+                          <div class="text">
+                            <p>
+                              <a href="mailto:yourmail@email.com">Thoughtem.architects@gmail.com</a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--End single footer widget-->
+            </div>
+          </div>
+        </div>
+        <!--End Footer-->
+  
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="bottom-inner">
+              <div class="copyright">
+                <p>
+                  Copyright &copy;<a href="index.html"> 2022 Thought.em .</a> All
+                  Rights Reserved.
+                </p>
+              </div>
+              <div class="footer-menu">
+                <ul class="footer-nav">
+                  <li><a href="TermsofService.html">Terms of Service</a></li>
+                  <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End footer area-->
+
+
+    <!-- Include allblogs.js -->
+    <script type="module" src="/assets/js/singleblog.js"></script>
+  </body>
+</html>
