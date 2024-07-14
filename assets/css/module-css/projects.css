@@ -1,0 +1,19 @@
+#projectCategories {
+    display: flex;
+    justify-content: space-around; /* Adjust as per your layout needs */
+    align-items: center; /* Adjust as per your layout needs */
+    padding-top: 80px;
+    gap: 1px;
+
+}
+
+#projectCategories a {
+    padding: 4px 2px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+ }
+
+#projectCategories a:hover {
+    background-color: #ddd; /* Adjust the background color on hover */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}

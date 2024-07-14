@@ -39,11 +39,6 @@ body {
 
 
 
- 
-body {
-    background-color: #f4f4f4;
-}
-
 .containerk {
     max-width: 100%;
     margin: 170px 40px 30px 40px;
@@ -57,13 +52,21 @@ body {
 }
 
 .blog-image {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 500px;
     border-radius: 8px;
 }
 
-.blog-description, .blog-content {
+.blog-description, .blog-content  {
     margin-top: 30px;
+    width: 70%;
+}
+
+
+.blog-paragraphs{
+    padding-top: 30px;
+    width: 70%;
+
 }
 
 .share-button {
@@ -75,6 +78,21 @@ body {
     cursor: pointer;
     margin-top: 32px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
@@ -103,12 +121,33 @@ body {
     }
 
     .blog-title {
-        font-size: 2em;
+        font-size: 4em;
+        padding-top: 10px;
     }
 
     .share-button {
         padding: 8px 16px;
     }
+
+    .blog-image {
+        width: 70%;
+        height: 202px;
+        border-radius: 8px;
+    }
+
+
+    .blog-description, .blog-content  {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .blog-paragraphs{
+        padding-top: 30px;
+        width: 100%;
+    
+    }
+
+
 }
 
 @media (max-width: 576px) {
@@ -123,4 +162,7 @@ body {
     .share-button {
         padding: 6px 12px;
     }
+
+
+   
 }
