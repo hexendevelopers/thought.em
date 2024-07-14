@@ -17,3 +17,53 @@
     background-color: #ddd; /* Adjust the background color on hover */
     border-radius: 5px; /* Optional: Add border radius for rounded corners */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+   
+    
+
+    
+}
+
+@media (max-width: 992px) {
+    #projectCategories{
+        padding-top: 20px;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    #projectCategories{
+        padding-top: 20px;
+        display: block;
+    }
+
+}
+
+@media (max-width: 576px) {
+   
+    #projectCategories{
+        padding-top: 20px;
+        display: block;
+    }
+
+   
+}
